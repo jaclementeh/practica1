@@ -1,0 +1,8 @@
+2023-10-24 15:40:04: DEBUG: Mostramos precio medio por litro: 
+ 52.13
+2023-10-24 15:40:04: DEBUG: Mostramos precio medio por litro agrupado por tipo de carburante: 
+                 Producto  Mean_price_quantity
+0          Diesel OPTIMA                45.62
+1            Diesel STAR                48.52
+2     Gasolina Optima 98                57.62
+3  Gasolina sin plomo 95                57.11

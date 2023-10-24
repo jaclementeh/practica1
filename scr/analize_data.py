@@ -18,12 +18,9 @@ def analize_data(df1, df2, df3):
     logger.debug('DataFrame 2 info \n {}'.format(df2.to_string()))
     logger.debug('DataFrame 3 info \n {}'.format(df3.to_string()))
 
-    logger.debug('Dataframe 1 rows {}'.format(df1.shape[0]))
-    logger.debug('Dataframe 1 columns {}'.format(df1.shape[1]))
-    logger.debug('Dataframe 2 rows {}'.format(df2.shape[0]))
-    logger.debug('Dataframe 2 columns {}'.format(df2.shape[1]))
-    logger.debug('Dataframe 3 rows {}'.format(df3.shape[0]))
-    logger.debug('Dataframe 3 columns {}'.format(df3.shape[1]))
+    logger.debug('Dataframe 1 shape (rows / columns) \n {}'.format(df1.shape))
+    logger.debug('Dataframe 2 shape (rows / columns) \n {}'.format(df2.shape))
+    logger.debug('Dataframe 3 shape (rows / columns) \n {}'.format(df3.shape))
 
     logger.debug('DataFrame describe: \n {}'.format(df1.describe()))
     logger.debug('DataFrame describe: \n {}'.format(df2.describe()))

@@ -11,8 +11,10 @@ if __name__ == '__main__':
 
     analize_data(df1, df2, df3)
 
-    #transformed_data = transform_data(df1, df2, df3)
+    transformed_data = transform_data(df1, df2, df3)
 
-    #metrics(transformed_data)
+    metrics(transformed_data)
 
-
+# decribe con to_string
+# drop with field value
+# logs with dataframe (xlsx?)
